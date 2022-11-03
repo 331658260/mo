@@ -65,75 +65,75 @@ def main():
 
     # the data required to make the prediction
 
-    a1 = st.text_input("级别", 1)
+    a1 = st.number_input("级别", 1)
 
-    a2 = st.text_input("功能分", 100)
+    a2 = st.number_input("功能分", 100)
 
-    a3 = st.text_input("等级", 2)
+    a3 = st.number_input("等级", 2)
 
-    a4 = st.text_input("面积_1", 112466.8)
+    a4 = st.number_input("面积_1", 112466.8)
 
-    a5 = st.text_input("折现年份", 0)
+    a5 = st.number_input("折现年份", 0)
 
-    a6 = st.text_input("设定功能分", 80)
+    a6 = st.number_input("设定功能分", 80)
 
-    a7 = st.text_input("贴现系数", 1)
+    a7 = st.number_input("贴现系数", 1)
 
-    a8 = st.text_input("等级_1", 2)
+    a8 = st.number_input("等级_1", 2)
 
-    a9 = st.text_input("级别价", 2558)
+    a9 = st.number_input("级别价", 2558)
 
-    a10 = st.text_input("距车站距离", 550)
+    a10 = st.number_input("距车站距离", 550)
 
-    a11 = st.text_input("级别价评估", 2460)
+    a11 = st.number_input("级别价评估", 2460)
 
-    a12 = st.text_input("区片价评估", 2558)
+    a12 = st.number_input("区片价评估", 2558)
 
-    a13 = st.text_input("测算容积率", 2.5)
+    a13 = st.number_input("测算容积率", 2.5)
 
-    a14 = st.text_input("用途_E", 5)
+    a14 = st.number_input("用途_E", 5)
 
-    a15 = st.text_input("乡镇名称_E", 18)
+    a15 = st.number_input("乡镇名称_E", 18)
 
-    a16 = st.text_input("名称_E", 7)
+    a16 = st.number_input("名称_E", 7)
 
-    a17 = st.text_input("规划用途_E", 25)
+    a17 = st.number_input("规划用途_E", 25)
 
-    a18 = st.text_input("开发程度_E", 14)
+    a18 = st.number_input("开发程度_E", 14)
 
-    a34 = st.text_input("规划用途_1_E", 25)
+    a34 = st.number_input("规划用途_1_E", 25)
 
-    a35 = st.text_input("开发程度_1_E", 14)
+    a35 = st.number_input("开发程度_1_E", 14)
 
-    a19 = st.text_input("分类_E", 3)
+    a19 = st.number_input("分类_E", 3)
 
-    a20 = st.text_input("主要区域_E", 4)
+    a20 = st.number_input("主要区域_E", 4)
 
-    a21 = st.text_input("DLBM_E", 14)
+    a21 = st.number_input("DLBM_E", 14)
 
-    a33 = st.text_input("DLMC_E", 14)
+    a33 = st.number_input("DLMC_E", 14)
 
-    a22 = st.text_input("ZLDWMC_E", 65)
+    a22 = st.number_input("ZLDWMC_E", 65)
 
-    a23 = st.text_input("BZ_E",4)
+    a23 = st.number_input("BZ_E",4)
 
-    a24 = st.text_input("用途_1_E",5)
+    a24 = st.number_input("用途_1_E",5)
 
-    a25 = st.text_input("区片_E", 43)
+    a25 = st.number_input("区片_E", 43)
 
-    a26 = st.text_input("容积率_1_E", 31)
+    a26 = st.number_input("容积率_1_E", 31)
 
-    a27 = st.text_input("商服评价_E", 7)
+    a27 = st.number_input("商服评价_E", 7)
 
-    a28 = st.text_input("市场评价_E", 7)
+    a28 = st.number_input("市场评价_E", 7)
 
-    a29 = st.text_input("车站评价_E", 6)
+    a29 = st.number_input("车站评价_E", 6)
 
-    a30 = st.text_input("银行评价_E", 9)
+    a30 = st.number_input("银行评价_E", 9)
 
-    a31 = st.text_input("文娱评价_E", 8)
+    a31 = st.number_input("文娱评价_E", 8)
 
-    a32 = st.text_input("评估用途_E", 15)
+    a32 = st.number_input("评估用途_E", 15)
 
 
     result =""
