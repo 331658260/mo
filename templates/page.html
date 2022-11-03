@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+<div align="center">
+    <h2>使用Flask部署机器学习模型Demo——建设用地_地价预测</h2>
+
+    <br>
+    <form action="{{ url_for('predict')}}" method="post">
+        <b>级别: </b><input type="text" name="housesize" required />
+        <br>
+        <b>功能分: </b><input type="text" name="a" required />
+        <br>
+        <b>等级: </b><input type="text" name="b" required />
+        <br>
+        <b>面积_1: </b><input type="text" name="b1" required />
+        <br>
+        <b>折现年份: </b><input type="text" name="b2" required />
+        <br>
+        <b>设定功能分: </b><input type="text" name="b3" required />
+        <br>
+        <b>贴现系数: </b><input type="text" name="b4" required />
+        <br>
+        <b>等级_1: </b><input type="text" name="b5" required />
+        <br>
+        <b>级别价: </b><input type="text" name="b6" required />
+        <br>
+        <b>距车站距离: </b><input type="text" name="b7" required />
+        <br>
+        <b>级别价评估: </b><input type="text" name="b8" required />
+        <br>
+        <b>区片价评估: </b><input type="text" name="b9" required />
+        <br>
+        <b>测算容积率: </b><input type="text" name="b10" required />
+        <br>
+        <b>用途_E: </b><input type="text" name="b11" required />
+        <br>
+        <b>乡镇名称: </b><input type="text" name="b12" required />
+        <br>
+        <b>名称_E: </b><input type="text" name="b13" required />
+        <br>
+        <b>规划用途_E: </b><input type="text" name="b14" required />
+        <br>
+        <b>开发程度_E: </b><input type="text" name="b15" required />
+        <br>
+        <b>规划用途_1_E: </b><input type="text" name="b16" required />
+        <br>
+        <b>开发程度_1_E: </b><input type="text" name="b17" required />
+        <br>
+        <b>分类_E: </b><input type="text" name="b18" required />
+        <br>
+        <b>主要区域_E: </b><input type="text" name="b19" required />
+        <br>
+        <b>DLBM_E: </b><input type="text" name="b20" required />
+        <br>
+        <b>DLMC_E: </b><input type="text" name="b21" required />
+        <br>
+        <b>ZLDWMC_E: </b><input type="text" name="b22" required />
+        <br>
+        <b>BZ_E: </b><input type="text" name="b23" required />
+        <br>
+        <b>用途_1_E: </b><input type="text" name="b24" required />
+        <br>
+        <b>区片_E: </b><input type="text" name="b25" required />
+        <br>
+        <b>容积率_1_E: </b><input type="text" name="b26" required />
+        <br>
+        <b>商服评价_E: </b><input type="text" name="b27" required />
+        <br>
+        <b>市场评价_E: </b><input type="text" name="b28" required />
+        <br>
+        <b>车站评价_E: </b><input type="text" name="b29" required />
+        <br>
+        <b>银行评价_E: </b><input type="text" name="b30" required />
+        <br>
+        <b>文娱评价_E: </b><input type="text" name="b31" required />
+        <br>
+        <b>评估用途_E: </b><input type="text" name="b32" required />
+        <br>
+
+        <button type="submit">预测地价</button>
+    </form>
+    <br>
+
+    {{ prediction_display_area }}
+</div>
+</body>
+
+</html>
