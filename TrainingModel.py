@@ -10,7 +10,6 @@ from sklearn.model_selection import train_test_split
 # 模型
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import GradientBoostingRegressor
-from xgboost.sklearn import XGBRegressor
 from sklearn.ensemble import ExtraTreesRegressor
 from lightgbm import LGBMRegressor
 from mlxtend.regressor import StackingCVRegressor
